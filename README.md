@@ -1,5 +1,5 @@
-# Minecraft-API
-Minecraft-API is a open source Minecraft API written in JavaScript
+# Minecraft-User-API
+Minecraft-User-API is a open source Minecraft API written in JavaScript
 
 # Features
 ## `/name/face/layer/{username}`
