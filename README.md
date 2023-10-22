@@ -1,5 +1,5 @@
 # Minecraft-User-API
-Minecraft-User-API is a open source Minecraft API written in JavaScript inspired by Crafatar.com and Minotar.net
+Minecraft-User-API is a open source Minecraft API written in JavaScript inspired by [crafatar.com](https://crafatar.com) and [minotar.net](https://minotar.net)
 
 # Features
 ## `/name/face/layer/{username}`
