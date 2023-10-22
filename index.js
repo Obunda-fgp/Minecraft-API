@@ -9,10 +9,10 @@ app.use(express.json());
 
 app.get('/name/face/layer/:username', async (req, res) => {
   const username = req.params.username;
-  const mojangApiUrl = `https://api.mojang.com/users/profiles/minecraft/${username}`;
+  const APIURL = `https://api.mojang.com/users/profiles/minecraft/${username}`;
 
   try {
-    const response = await fetch(mojangApiUrl);
+    const response = await fetch(APIURL);
     const data = await response.json();
     const uuid = data.id;
     const skinUrl = `https://sessionserver.mojang.com/session/minecraft/profile/${uuid}?unsigned=false`;
@@ -47,10 +47,10 @@ app.get('/name/face/layer/:username', async (req, res) => {
 
 app.get('/name/face/nolayer/:username', async (req, res) => {
   const username = req.params.username;
-  const mojangApiUrl = `https://api.mojang.com/users/profiles/minecraft/${username}`;
+  const APIURL = `https://api.mojang.com/users/profiles/minecraft/${username}`;
 
   try {
-    const response = await fetch(mojangApiUrl);
+    const response = await fetch(APIURL);
     const data = await response.json();
     const uuid = data.id;
     const skinUrl = `https://sessionserver.mojang.com/session/minecraft/profile/${uuid}?unsigned=false`;
@@ -79,10 +79,10 @@ app.get('/name/face/nolayer/:username', async (req, res) => {
 
 app.get('/name/skin/:username', async (req, res) => {
   const username = req.params.username;
-  const mojangApiUrl = `https://api.mojang.com/users/profiles/minecraft/${username}`;
+  const APIURL = `https://api.mojang.com/users/profiles/minecraft/${username}`;
 
   try {
-    const response = await fetch(mojangApiUrl);
+    const response = await fetch(APIURL);
     const data = await response.json();
     const uuid = data.id;
     const skinUrl = `https://sessionserver.mojang.com/session/minecraft/profile/${uuid}?unsigned=false`;
@@ -189,10 +189,10 @@ app.get('/uuid/skin/:uuid', async (req, res) => {
 
 app.get('/get/uuid/:username', async (req, res) => {
   const username = req.params.username;
-  const mojangApiUrl = `https://api.mojang.com/users/profiles/minecraft/${username}`;
+  const APIURL = `https://api.mojang.com/users/profiles/minecraft/${username}`;
 
   try {
-    const response = await fetch(mojangApiUrl);
+    const response = await fetch(APIURL);
     const data = await response.json();
     const uuid = data.id;
     res.setHeader('Content-Type', 'text/plain');
@@ -204,10 +204,10 @@ app.get('/get/uuid/:username', async (req, res) => {
 
 app.get('/get/name/:uuid', async (req, res) => {
   const uuid = req.params.uuid;
-  const mojangApiUrl = `https://sessionserver.mojang.com/session/minecraft/profile/${uuid}?unsigned=false`;
+  const APIURL = `https://sessionserver.mojang.com/session/minecraft/profile/${uuid}?unsigned=false`;
 
   try {
-    const response = await fetch(mojangApiUrl);
+    const response = await fetch(APIURL);
     const data = await response.json();
     const name = data.name;
     res.setHeader('Content-Type', 'text/plain');
