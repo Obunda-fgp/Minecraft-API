@@ -12,6 +12,8 @@ Returns the face with the layer of username.
 `/name/face/layer/aabss`
 
 
+---
+
 
 ## `/name/face/nolayer/{username}`
 Returns the face without the layer of username.
@@ -22,6 +24,8 @@ Returns the face without the layer of username.
 ### URL:
 `/name/face/nolayer/aabss`
 
+
+---
 
 
 ## `/name/skin/{username}`
@@ -34,6 +38,8 @@ Returns the skin of username.
 `/name/skin/aabss`
 
 
+---
+
 
 ## `/uuid/{username}`
 Returns the uuid of username.
@@ -44,6 +50,8 @@ Returns the uuid of username.
 ### URL:
 `/uuid/aabss`
 
+
+---
 
 
 ## `/name/{uuid}`
@@ -56,6 +64,8 @@ Returns the uuid of username.
 `/uuid/d8351dcac1094ad4b7ac77fdd02234e0`
 
 
+---
+
 
 ## `/uuid/face/layer/{uuid}`
 Returns the face with the layer of uuid.
@@ -67,6 +77,8 @@ Returns the face with the layer of uuid.
 `/uuid/face/layer/d8351dcac1094ad4b7ac77fdd02234e0`
 
 
+---
+
 
 ## `/uuid/face/nolayer/{uuid}`
 Returns the face without the layer of uuid.
@@ -77,6 +89,8 @@ Returns the face without the layer of uuid.
 ### URL:
 `/uuid/face/nolayer/d8351dcac1094ad4b7ac77fdd02234e0`
 
+
+---
 
 
 ## `/uuid/skin/{uuid}`
