@@ -3,7 +3,7 @@ import express from "express";
 import Jimp from "jimp";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1234;
 
 app.use(express.json());
 
