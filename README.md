@@ -29,13 +29,16 @@ Example:
 ## `/uuid/{username}`
 Returns the uuid of username.
 Example:
+
 ```d8351dcac1094ad4b7ac77fdd02234e0```
+
 `/uuid/aabss`
 
 ## `/name/{uuid}`
 Returns the uuid of username.
 Example:
 ```aabss```
+
 `/uuid/d8351dcac1094ad4b7ac77fdd02234e0`
 
 ## `/uuid/face/layer/{uuid}`
