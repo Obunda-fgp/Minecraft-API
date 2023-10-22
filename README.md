@@ -10,6 +10,8 @@ Example:
 
 `/name/face/layer/aabss`
 
+
+
 ## `/name/face/nolayer/{username}`
 Returns the face without the layer of username.
 Example:
@@ -17,6 +19,8 @@ Example:
 ![image](https://github.com/aabssmc/Minecraft-API/assets/53542804/6c909651-2b2f-4559-821b-d75fa9d265ad)
 
 `/name/face/nolayer/aabss`
+
+
 
 ## `/name/skin/{username}`
 Returns the skin of username.
@@ -26,6 +30,8 @@ Example:
 
 `/name/skin/aabss`
 
+
+
 ## `/uuid/{username}`
 Returns the uuid of username.
 Example:
@@ -34,12 +40,17 @@ Example:
 
 `/uuid/aabss`
 
+
+
 ## `/name/{uuid}`
 Returns the uuid of username.
 Example:
+
 ```aabss```
 
 `/uuid/d8351dcac1094ad4b7ac77fdd02234e0`
+
+
 
 ## `/uuid/face/layer/{uuid}`
 Returns the face with the layer of uuid.
@@ -49,6 +60,8 @@ Example:
 
 `/uuid/face/layer/d8351dcac1094ad4b7ac77fdd02234e0`
 
+
+
 ## `/uuid/face/nolayer/{uuid}`
 Returns the face without the layer of uuid.
 Example:
@@ -56,6 +69,8 @@ Example:
 ![image](https://github.com/aabssmc/Minecraft-API/assets/53542804/6c909651-2b2f-4559-821b-d75fa9d265ad)
 
 `/uuid/face/nolayer/d8351dcac1094ad4b7ac77fdd02234e0`
+
+
 
 ## `/uuid/skin/{uuid}`
 Returns the skin of uuid.
