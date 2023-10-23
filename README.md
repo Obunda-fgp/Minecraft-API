@@ -2,7 +2,7 @@
 Minecraft-User-API is a open source Minecraft API written in JavaScript inspired by [crafatar.com](https://crafatar.com) and [minotar.net](https://minotar.net)
 
 # Testing
-https://mcapi.aabss.lol
+To use or test a fully deployed and customized API, go here: https://mcapi.aabss.lol
 
 
 # Features
